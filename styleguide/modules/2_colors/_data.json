@@ -1,0 +1,24 @@
+{
+    "id": "colors",
+    "name": "Colors",
+    "items": {
+        "intro": ["For the most part, Speedback utilizes a blue monochrome palette. Use .brand-blue sparingly, and only for interactive elements."],
+        "colors": [
+            {
+                "className": "brand-blue"
+            },
+            {
+                "className": "bg-blue"
+            },
+            {
+                "className": "grey-text"
+            },
+            {
+                "className": "grey-medium"
+            },
+            {
+                "className": "grey-light"
+            }
+        ]
+    }
+}

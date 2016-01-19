@@ -1,0 +1,64 @@
+@import "vendor/foundation-form.scss";
+
+$brand-blue: #4BAAF4;
+$bg-blue: #ECF4FA;
+$grey-text: #3F3F3F;
+$grey-medium: #818E98;
+$grey-light: #B2BFC9;
+
+input[type="radio"],
+input[type="checkbox"] {
+	margin-right: 10px !important;
+}
+
+input {
+	background-color: #fff;
+	color: $grey-text;
+	box-shadow: none !important;
+	border-radius: 2px !important;
+}
+
+.input-primary {
+	border-color: $brand-blue !important;
+}
+
+input:focus {
+	border: 2px solid $brand-blue;
+    outline: 0;
+}
+
+select {
+	width: 100%;
+	background-image: url("../../assets/images/icon-form-dropdown.svg");
+    background-size: 7px 14px;
+    background-position: right 10px center !important;
+    background-repeat: no-repeat;
+    padding-right: 27px;
+}
+
+select:focus {
+	border: 2px solid $brand-blue !important;
+    outline: 0;
+	border-radius: 2px !important;
+}
+
+#forms {
+  fieldset {
+    margin-top: 0;
+    margin-right: 80px;
+    background-color: #fff;
+    padding: 80px !important;
+    border-color: #C5D1DA;
+    @media (max-width: 1000px) {
+        padding: 30px !important;
+    }
+    @media (max-width: 500px) {
+        padding: 15px !important;
+        margin-right: 60px;
+    }
+  }
+
+/*  NEW ADDITIONS */
+
+
+}

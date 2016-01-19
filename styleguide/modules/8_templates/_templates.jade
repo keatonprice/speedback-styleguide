@@ -1,0 +1,16 @@
+h2.huge-module__title=name
+if items.intro
+	each paragraph in items.intro
+		p.huge-module__paragraph!=paragraph
+ul.huge-list--unstyled.templates-group
+	each template in items.templates
+		li
+			if template.link
+				a(href=template.link)
+					.template-name=template.templateName
+					img(class='custom-img #{template.className}', src='assets/images/#{template.thumbnailFile}', width='200', alt='#{template.templateName}')
+					
+			else
+				.template-name=template.templateName
+				img(class='custom-img #{template.className}', src='assets/images/#{template.thumbnailFile}', width='200', alt='#{template.templateName}')
+			

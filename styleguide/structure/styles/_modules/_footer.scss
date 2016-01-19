@@ -1,0 +1,29 @@
+.huge-footer {
+	background-color: #C8D9E6;
+	height: $footerHeight;
+	text-align: center;
+	padding: 40px 0 0;
+
+	.h {
+		display: inline-block;
+		width: 74px;
+		height: 50px;
+		background: url("../../assets/images/logo.svg") 50% 50% no-repeat;
+		background-size: contain;
+		text-decoration: none;
+	}
+
+	p {
+		font-family: "ProximaNova-Semibold", Helvetica, Arial, sans;
+		letter-spacing: 0.1px;
+		font-size: 15px;
+		color: #grey-text;
+		margin-top: 3px;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	sup {
+		font-size: 7px;
+		vertical-align: super;
+	}
+}

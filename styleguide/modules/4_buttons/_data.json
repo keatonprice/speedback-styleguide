@@ -1,0 +1,15 @@
+{
+	"id": "buttons",
+	"name": "Buttons",
+	"hasScript": "yes",
+	"items": [
+	    {
+	        "buttonName" : "Primary Button",
+	        "className": "button primary"
+	    },
+	    {
+	        "buttonName" : "Secondary Button",
+	        "className": "button secondary"
+	    }
+	]
+}

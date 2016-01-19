@@ -1,0 +1,24 @@
+// Colors
+$magenta: #ec008c;
+$brand-blue: #4BAAF4;
+$bg-blue: #ECF4FA;
+$grey-text: #3F3F3F;
+$grey-medium: #818E98;
+$grey-light: #B2BFC9;
+
+// Functional Colors
+$sidebarLinkHoverColor: $brand-blue;
+$sidebarBackgroundColor: #fff;
+$structureBorderColor: #C5D1DA;
+
+
+// Configuration
+$transitionLength: .2s;
+$sidebarOpenedWidth: 240px;
+$headerHeight: 63px;
+$footerHeight: 180px;
+
+// Breakpoints
+$bp-small: "only screen and (max-width : 40em)";
+$bp-medium: "only screen and (min-width : 40.063em)";
+$bp-large: "only screen and (min-width : 64.063em)";

@@ -1,0 +1,55 @@
+::-moz-selection { /* Code for Firefox */
+  background: rgba(75, 170, 244, 0.3);
+  color: #3F3F3F;
+}
+
+::selection {
+  background: rgba(75, 170, 244, 0.3);
+  color: #3F3F3F;
+}
+
+// Module title placeholder
+%module__title {
+  font-size: 2em;
+  line-height: 30px;
+  margin: 0 0 45px;
+  font-weight: normal;
+  font-family: ProximaNova-Regular, sans-serif;
+  color: #3F3F3F;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -1px;
+}
+
+a {
+  color: #333;
+}
+
+p.huge-module__paragraph {
+  margin: 0;
+  margin-bottom: 25px;
+  color: #728390;
+  -webkit-font-smoothing: antialiased;
+  a {
+    color: $brand-blue;
+  }
+}
+
+.huge-module__title {
+  @extend %module__title;
+  &--small {
+    @extend %module__title;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 25px;
+  }
+
+  &--light {
+    color: #8DA2B3;
+    text-transform: none;
+    margin: 0;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 25px;
+    font-weight: normal;
+  }
+}

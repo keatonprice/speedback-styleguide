@@ -1,0 +1,58 @@
+$black: #000;
+$brand-blue: #4BAAF4;
+$bg-blue: #ECF4FA;
+$grey-text: #3F3F3F;
+$grey-medium: #818E98;
+$grey-light: #B2BFC9;
+
+.button {
+	cursor: pointer;
+	text-decoration: none !important;
+	display: inline-block;
+	font-family: Arial,sans-serif;
+	border-radius: 11px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 0.7em;
+	-webkit-transition: background-color 0.3s,opacity 0.3s;
+	-moz-transition: background-color 0.3s,opacity 0.3s;
+	-o-transition: background-color 0.3s,opacity 0.3s;
+	transition: background-color 0.3s,opacity 0.3s;
+}
+
+.button.load {
+	-webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+	-moz-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+	-o-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+	transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+.button.primary {
+	background: $brand-blue;
+	width: 200px;
+	height: 54px;
+	line-height: 54px;
+	font-size: 17px;
+}
+
+.button.secondary {
+	background: transparent;
+	border: solid 1px $grey-light;
+	color: $grey-text;
+	width: 200px;
+	height: 54px;
+	line-height: 54px;
+	font-size: 17px;
+}
+
+.primary:hover {
+	background-color: #3C86C1 !important;
+	color: #fff;
+}
+
+.secondary:hover {
+	background-color: $brand-blue !important;
+	color: #fff;
+	border-color: $brand-blue;
+}

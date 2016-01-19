@@ -1,0 +1,9 @@
+{
+	"id": "introduction",
+	"name": "Introduction",
+	"scripts": ["introduction.js"],
+	"items" : [
+        "Speedback is an incredible new Slack bot for delivering anonymous peer feedback throughout your team.",
+        "We want to be as innovative as possible, while still putting our best foot forward. Please use the styleguide found here to ensure that everything we put out has a common feel."
+    ]
+}

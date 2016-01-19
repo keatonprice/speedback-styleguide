@@ -1,0 +1,21 @@
+{
+    "id": "templates",
+    "name": "Custom",
+    "hasScript": "yes",
+    "items": {
+        "templates": [
+            {
+                "link": "",
+                "templateName": "Slack Chromes",
+                "className": "chromes",
+                "thumbnailFile": "chromes.png"
+            },
+            {
+                "link": "",
+                "templateName": "Filter Controller",
+                "className": "filter",
+                "thumbnailFile": "filter.svg"
+            }
+        ]
+    }
+}

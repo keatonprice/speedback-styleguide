@@ -1,0 +1,52 @@
+$brand-blue: #4BAAF4;
+$bg-blue: #ECF4FA;
+$grey-text: #3F3F3F;
+$grey-medium: #818E98;
+$grey-light: #B2BFC9;
+
+.brand-blue {
+	background-color: $brand-blue;
+}
+
+.bg-blue {
+	background-color: $bg-blue;
+  border: 1px solid $grey-light;
+}
+
+.grey-text {
+  background-color: $grey-text;
+}
+
+.grey-medium {
+	background-color: $grey-medium;
+}
+
+.grey-light {
+	background-color: $grey-light;
+}
+
+#colors {
+  li {
+    position: relative;
+    padding: 0;
+    margin-bottom: 0.9375em;
+
+    p {
+      position: absolute;
+      padding: 3px 13px;
+      color: #666;
+      background-color: #fff;
+      font-size: 12px;
+      bottom: 0;
+      left: 0.9375em;
+    }
+    .color {
+      height: 120px;
+      margin-right: 0.9375em;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
